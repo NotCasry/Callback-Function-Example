@@ -9,6 +9,7 @@ local function new_bool(f)
     end
 
     pcall(f, bool)
+    -- pcall(f, bool, "a") <----- You can add as many arguments as you want!
 end
 
 new_bool(function(state)
