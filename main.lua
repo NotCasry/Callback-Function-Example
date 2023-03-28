@@ -19,3 +19,16 @@ new_bool(function(state)
         print("Bool == False")
     end
 end)
+
+--[[
+
+new_bool(function(state, str)
+    if state then
+        print("Bool == True")
+        print(str) <----- Prints out "a"
+    else
+        print("Bool == False")
+    end
+end)
+
+]]
